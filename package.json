@@ -1,12 +1,14 @@
 {
     "private": true,
-      "scripts": {
+        "scripts": {
       "build": "nuxt build",
       "dev": "nuxt dev",
       "generate": "nuxt generate",
       "preview": "nuxt preview"
     },
     "devDependencies": {
-      "nuxt": "3.0.0-rc.9"
+      "nuxt": "latest",
+          "@nuxt/content": "latest",
+          "@nuxtjs/snipcart": "latest"
     }
   }

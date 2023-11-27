@@ -21,7 +21,7 @@
 					:data-item-id="obj._id"
 					:data-item-price="obj.precio"
 					:data-item-description="obj.description"
-					:data-item-image="obj.image"
+					:data-item-image="`https://cms-una.000webhostapp.com/storage/uploads/${obj.image}`"
 					:data-item-name="obj.title"
 					>Comprar</button>
        </div>

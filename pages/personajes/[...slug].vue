@@ -20,11 +20,11 @@
         <pre></pre>
         <h5>Descripción:</h5>
         <span v-html="obj.descripcion"></span>
-      </div>
+      </div>      
       <utteranc/>
       <div class="two columns"></div>
     </div>
-    <FooterView />
+    <FooterView />   
   </div>
 </template>
 <script setup>

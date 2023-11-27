@@ -15,9 +15,9 @@
          <h5>Descripción:</h5>
          <span v-html="obj.descripcion"></span>
        </div>
+       <utteranc/>
        <div class="two columns"></div>
      </div>
-     <utteranc/>
      <FooterView />
    </div>
   </template>

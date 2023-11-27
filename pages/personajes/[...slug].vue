@@ -1,5 +1,5 @@
 <!-- pages/revistas/[...slug].vue -->
-<template>
+<template>  
   <div class="container">
     <HeaderView />
     <div class="row">
@@ -21,15 +21,15 @@
         <h5>Descripción:</h5>
         <span v-html="obj.descripcion"></span>
       </div>
+      <utteranc/>
       <div class="two columns"></div>
     </div>
-    <utteranc/>
     <FooterView />
   </div>
 </template>
 <script setup>
 const route = useRoute()
 const { data: obj, refresh } =
-  await useFetch(`https://cms-una.000webhostapp.com/api/content/item/Personajes/${route.params.slug}`)
+  await useFetch(`https://cms-una.000webhostapp.com/api/content/item/Personajes/${route.params.slug}`)  
 refresh()
 </script>

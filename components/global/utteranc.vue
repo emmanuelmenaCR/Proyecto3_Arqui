@@ -9,7 +9,7 @@ export default {
     script: [
       {
         src: 'https://utteranc.es/client.js',
-        repo: "arce/arquitectura-comentarios",
+        repo: "emmanuelmenaCR/Proyecto3_Arqui",
         'issue-term': "pathname",
         label: "comments",
         theme: "github-light",
